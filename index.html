@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Technically Thespians</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #000;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 32px;
+    }
+
+    h1 {
+      color: #fff;
+      font-family: 'Futura', 'Trebuchet MS', 'Nunito', sans-serif;
+      font-weight: 300;
+      font-size: clamp(1.5rem, 4vw, 3rem);
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      text-align: center;
+    }
+
+    .logo {
+      max-width: min(320px, 60vw);
+      height: auto;
+    }
+
+    .coming-soon {
+      color: #fff;
+      font-family: 'Futura', 'Trebuchet MS', 'Nunito', sans-serif;
+      font-weight: 300;
+      font-size: clamp(1rem, 2.5vw, 1.75rem);
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>TECHNICALLY THESPIANS</h1>
+    <img class="logo" src="Logo-white.png" alt="Technically Thespians Logo">
+    <p class="coming-soon">Coming Soon</p>
+  </div>
+</body>
+</html>
